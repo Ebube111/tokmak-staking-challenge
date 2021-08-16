@@ -1,0 +1,27 @@
+[
+  {
+    "display_name": "Home",
+    "route": "/",
+    "icon": "bx bx-category-alt"
+  },
+  {
+    "display_name": "Staking",
+    "route": "/customers",
+    "icon": "bx bx-user-pin"
+  },
+  {
+    "display_name": "Power Ton",
+    "route": "/products",
+    "icon": "bx bx-package"
+  },
+  {
+    "display_name": "Wallet",
+    "route": "/orders",
+    "icon": "bx bx-cart"
+  },
+  {
+    "display_name": "Support",
+    "route": "/analytics",
+    "icon": "bx bx-bar-chart-alt"
+  }
+]

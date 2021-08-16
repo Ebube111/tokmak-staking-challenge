@@ -1,0 +1,14 @@
+[
+  {
+    "icon": "bx bx-error",
+    "content": "Metamask"
+  },
+  {
+    "icon": "bx bx-package",
+    "content": "WalletConnect"
+  },
+  {
+    "icon": "bx bx-cart",
+    "content": "New to Etherum"
+  }
+]

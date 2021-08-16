@@ -1,0 +1,114 @@
+.Header {
+  margin-top: -30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_operator {
+  margin-top: 3rem;
+  position: relative;
+  width: 75%;
+  box-shadow: 0 4px 8px 0 rgba(206, 182, 182, 0.1),
+    0 6px 6px 0 rgba(211, 181, 181, 0.1);
+  border-radius: 0.5rem;
+  background-color: #e5e5e5;
+  padding: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 4px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.title {
+  font-size: 2.5rem;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-top: 0;
+  display: flex;
+  color: var(--txt-color-dark);
+  font-weight: normal;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.dao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.operator {
+  display: flex;
+  padding: 0 1.5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.inbetween {
+  flex-grow: 0.5;
+}
+
+.i {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: var(--second-color-green);
+}
+
+.i2 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: var(--second-color-red);
+}
+
+.stake,
+.unstake {
+  display: flex;
+  padding: 0.3rem 1rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  /* padding-left: 10rem; */
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  background-color: var(--second-color-red);
+}
+.dot2 {
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  display: inline-block;
+  background-color: var(--second-color-green);
+}

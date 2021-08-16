@@ -1,0 +1,68 @@
+.main-card {
+  width: 100%;
+  height: 100%;
+}
+
+.card-header {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.opr {
+  background-color: var(--txt-color-dark);
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  padding: 0.6rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.header-align {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: space-between;
+}
+
+.dots {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.class-footer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.5rem;
+}
+
+.tokamak {
+  padding: 0.5rem;
+  font-family: "TitilliumWeb", sans-serif;
+  font-size: 30px;
+  font-weight: 550;
+}
+.connect {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-b {
+  border: 3px solid var(--main-color);
+}
+
+.down-arrow {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: var(--txt-color-light);
+}
+.down-arrow:hover {
+  color: var(--main-color);
+}
